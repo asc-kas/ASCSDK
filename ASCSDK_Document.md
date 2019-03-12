@@ -320,17 +320,17 @@
 			* I normally call setUserInfo() after I've initialized it successfully 
 
 # **<font color=red >特殊说明(Special instructions)</font>**	#
-> * ### 该文档为通用文档，适用于Android原生，unity，cocos2dx，flash语言开发的游戏，文档主要说明了内购与广告模块的接入方式，实际的实现，以及功能请参考对应的demo项目。
+* ### 该文档为通用文档，适用于Android原生，unity，cocos2dx，flash语言开发的游戏，文档主要说明了内购与广告模块的接入方式，实际的实现，以及功能请参考对应的demo项目。
 	* This document is a general document, suitable for Android native, unity, cocos2dx, flash language development of the game, the document mainly explains the in-app purchase and advertising module access, the actual implementation, as well as the function, please refer to the corresponding demo project.
 * ### 所有对接的游戏请适配全面屏，挖孔屏，水滴屏，以及适配Android P
 	* All games should be compatible with full screen, hole digging screen, water drop screen and Android P
 * ### 如果有内购与广告混合的游戏，可以把内购和广告的融合 
 	* If you have a game that mixes in-app purchases with advertising, you can mix in-app purchases with advertising
 * ### 游戏必须添加log日志打印配置(The game must add log log print configuration)
-	* AndroidManifest.xml里面加入
-		* <meta-data android:name="ulog.enable" android:value="true" />
-		* <meta-data android:name="ulog.level" android:value="DEBUG" />
-		* <meta-data android:name="ulog.local" android:value="true" />
+	* AndroidManifest.xml 里面加入(To join in)
+	* "<meta-data android:name="ulog.enable" android:value="true" />"
+	* "<meta-data android:name="ulog.level" android:value="DEBUG" />"
+	* "<meta-data android:name="ulog.local" android:value="true" />"
 * ### 游戏必须调用登陆login和上传数据方法submitExtraData方法
 	* The game must call the login and upload data method submitExtraData
 * ### 游戏Main Activity必须添加权限请求方法
