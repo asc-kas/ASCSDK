@@ -257,12 +257,11 @@
 			* 展示视频广告(Display video ads)
 		* <font color=red >onVideoResult(int code, String msg)</font>
 			* 视频回调接口(Video callback interface)
-			* msg 是json的字符串对象(MSG is a json string object)
-				* msg包含一个videoResult的key(MSG contains a videoResult key)
-				* videoResult为1时表示视频播放成功，下发奖励
-					* When videoResult is 1, it means that video has played successfully and the reward will be distributed
-				* videoResult为0时表示视频播放不成功，不下发奖励
-					* VideoResult of 0 means that video is not played successfully and no reward will be issued
+			* msg 是播放结果的标志(Is the indicator of the playback result)
+				* msg为"1"时表示视频播放成功，下发奖励
+					* When msg is "1", it means that video has played successfully and the reward will be distributed
+				* msg为"0"时表示视频播放不成功，不下发奖励
+					* msg of "0" means that video is not played successfully and no reward will be issued
 	* #### 退出(Exit) ####
 		* public void exitSDK(final ASCExitListener callback)
 		* public boolean isSupportExit()
