@@ -328,9 +328,9 @@
 	* If you have a game that mixes in-app purchases with advertising, you can mix in-app purchases with advertising
 * ### 游戏必须添加log日志打印配置(The game must add log log print configuration)
 	* AndroidManifest.xml 里面加入(To join in)
-	* "<meta-data android:name="ulog.enable" android:value="true" />"
-	* "<meta-data android:name="ulog.level" android:value="DEBUG" />"
-	* "<meta-data android:name="ulog.local" android:value="true" />"
+	* &lt;meta-data android:name="ulog.enable" android:value="true" /&gt;
+	* &lt;meta-data android:name="ulog.level" android:value="DEBUG" /&gt;
+	* &lt;meta-data android:name="ulog.local" android:value="true" /&gt;
 * ### 游戏必须调用登陆login和上传数据方法submitExtraData方法
 	* The game must call the login and upload data method submitExtraData
 * ### 游戏Main Activity必须添加权限请求方法
