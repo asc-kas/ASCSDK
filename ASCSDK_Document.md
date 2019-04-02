@@ -262,7 +262,7 @@
 					* When msg is "1", it means that video has played successfully and the reward will be distributed
 				* msg为"0"时表示视频播放不成功，不下发奖励
 					* msg of "0" means that video is not played successfully and no reward will be issued
-	* #### 退出(Exit) ####
+	* #### 退出(Exit 必接功能Must be) ####
 		* public void exitSDK(final ASCExitListener callback)
 		* public boolean isSupportExit()
 			* 这个方法是判断是否有渠道自带退出。
